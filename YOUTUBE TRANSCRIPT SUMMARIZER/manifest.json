@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Your Extension Name",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "http://*/",
+      "https://*/"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+     
+    }
+  }
+  
